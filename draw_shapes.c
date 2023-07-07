@@ -26,3 +26,12 @@ void print_triangle(int leftCol, int size)
   }
 }
 
+//Prints the arrow
+void print_arrow(int leftCol, int size)
+{
+  //the two methods above already have everything coded to draw my arrow
+  //they just need to be printed together
+  print_triangle(5,5);
+  print_square(8,5);
+    
+}
